@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TDMBDS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bievenue">Bienvenue</string>
+    <string name="messageBievenue">Veuillez sélectionner "s'enregistrer" pour créer un compte
+        ou sur "se connecter" si vous en avez déjà un.</string>
+    <string name="BoutonConnexion">Se connecter</string>
+    <string name="BoutonEnregistrer">S\'enregistrer</string>
+    <string name="title_activity_enregistrement">enregistrement</string>
+    <string name="title_activity_connexion">Connexion</string>
+    <string name="FormNom">Votre nom</string>
+    <string name="FormPrenom">Votre prénom</string>
+    <string name="formInfo">Veuillez saisir vos informations</string>
+    <string name="CheckHomme">Homme</string>
+    <string name="CheckFemme">Femme</string>
+    <string name="formRegisterButton">S\'enregistrer</string>
+    <string name="FormPhone">Votre téléphone</string>
+    <string name="FormMail">Votre Email</string>
+    <string name="FormPass">Votre mot de passe</string>
+
+</resources>

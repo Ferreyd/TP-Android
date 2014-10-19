@@ -1,0 +1,96 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/formInfo"
+        android:id="@+id/formInfoEnregistrement"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/formInfoEnregistrement"
+        android:layout_alignParentStart="true"
+        android:id="@+id/layoutFormEnregistrement">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formNom"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/FormNom" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formPrenom"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/FormPrenom" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkHomme"
+                android:text="@string/CheckHomme"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkFemme"
+                android:text="@string/CheckFemme"
+                android:checked="false" />
+
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/formPhone"
+            android:layout_gravity="center_vertical"
+            android:text="@string/FormPhone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/formEmail"
+            android:text="@string/FormMail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/formPass"
+            android:text="@string/FormPass" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/formPassConfirm"
+            android:text="@string/FormPass" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/formRegisterButton"
+            android:id="@+id/registerButton"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>
